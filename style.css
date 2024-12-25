@@ -1,0 +1,99 @@
+body{
+    background: rgb(0, 40, 150);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header, nav, footer, section{
+    border: 1px solid white;
+    padding: 2%;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 100px;
+    height: 80px;
+    padding: 0px 40px; 
+}
+span{
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    background: rgb(0, 40, 150);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.divsection{
+    margin: 50px 20%;
+    width: 60%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    font-size: larger;
+    margin: 5px;  
+    padding: 15px 40px; 
+    transition: 0.5s ease-in;
+    border-radius: 5px;
+}
+nav a:hover{
+    background: white;
+    color: rgb(0, 40, 150);
+    box-shadow: 0px 10px 40px black;
+}
+p img{
+    padding: 10px 0px;
+    width: 100px;
+    height: 120px;
+}
+textarea{
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgb(0, 40, 150);
+    color: white;
+    resize: none;
+}
+input{
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgb(0, 40, 150);
+    padding: 1%;
+    color: white;
+    margin: 1%;
+    transition: 0.5s ease-in;
+}
+input:hover{
+    box-shadow: 0px 10px 25px black;
+}
+footer{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.box img{
+    padding: 5px;
+    width: 120px;
+    height: 160px;
+    transition: 0.4s ease-in;
+}
+.box img:hover{
+    box-shadow: 0px 10px 25px black;
+}
